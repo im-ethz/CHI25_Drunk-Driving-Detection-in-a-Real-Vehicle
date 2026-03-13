@@ -1,8 +1,8 @@
 # CHI2025 - Moving Beyond the Simulator: Interaction-Based Drunk Driving Detection in a Real Vehicle Using Driver Monitoring Cameras and Real-Time Vehicle Data
-This repository contains the source code for the preprocessing, training, and evaluation pipelines used for our manuscript submitted to CHI 2025:
+This repository contains the source code for the preprocessing, training, and evaluation pipelines used in the following publication.
 
 
->Interaction-Based Drunk Driving Detection in a Real Vehicle Using Driver Monitoring Cameras and Real-Time Vehicle Data
+>Robin Deuber, Patrick Langer, Mathias Kraus, Matthias Pfäffli, Matthias Bantle, Filipe Barata, Florian von Wangenheim, Elgar Fleisch, Wolfgang Weinmann, and Felix Wortmann. 2025. Moving Beyond the Simulator: Interaction-Based Drunk Driving Detection in a Real Vehicle Using Driver Monitoring Cameras and Real-Time Vehicle Data. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25). Association for Computing Machinery, New York, NY, USA, Article 84, 1–25. https://doi.org/10.1145/3706598.3714007
 
 ## Content overview
 The repo consists of three majors parts, which are subdivided into the separate folders of this repository as follows:
@@ -128,11 +128,38 @@ python run_train_and_eval.py
 
 
 ## Contributors
-Contributors currently hidden due to ongoing peer review process.
+- Robin Deuber
+- Patrick Langer
+- Mathias Kraus
+- Matthias Pfäffli
+- Matthias Bantle
+- Filipe Barata
+- Florian von Wangenheim
+- Elgar Fleisch
+- Wolfgang Weinmann
+- Felix Wortmann
 
 ## Contact
-Contributors currently hidden due to ongoing peer review process.
+Robin Deuber, rdeuber@ethz.ch
 
 ## Citation
-Please cite our work as follows: TBA
+Please cite our work as follows: 
 
+>Robin Deuber, Patrick Langer, Mathias Kraus, Matthias Pfäffli, Matthias Bantle, Filipe Barata, Florian von Wangenheim, Elgar Fleisch, Wolfgang Weinmann, and Felix Wortmann. 2025. Moving Beyond the Simulator: Interaction-Based Drunk Driving Detection in a Real Vehicle Using Driver Monitoring Cameras and Real-Time Vehicle Data. In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25). Association for Computing Machinery, New York, NY, USA, Article 84, 1–25. https://doi.org/10.1145/3706598.3714007
+
+```
+@inproceedings{10.1145/3706598.3714007,
+author = {Deuber, Robin and Langer, Patrick and Kraus, Mathias and Pf\"{a}ffli, Matthias and Bantle, Matthias and Barata, Filipe and von Wangenheim, Florian and Fleisch, Elgar and Weinmann, Wolfgang and Wortmann, Felix},
+title = {Moving Beyond the Simulator: Interaction-Based Drunk Driving Detection in a Real Vehicle Using Driver Monitoring Cameras and Real-Time Vehicle Data},
+year = {2025},
+isbn = {9798400713941},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3706598.3714007},
+doi = {10.1145/3706598.3714007},
+booktitle = {Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},
+articleno = {84},
+numpages = {25},
+keywords = {health, safety, driving, eye movement, vehicle interaction, driver monitoring camera},
+series = {CHI '25}
+} ```
